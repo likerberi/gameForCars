@@ -1,0 +1,10 @@
+KMP,  
+Compose-Multiplatform  
+commonMain, androidMain, iosMain  
+  
+Kotlin-multiplatform, org.jetbrains.compose  
+sourceSets   
+Koin, coroutines, serialization..   
+  
+@Composable  
+Fun MainView() = App(sayHi = getPlatform().name)  
